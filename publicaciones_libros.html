@@ -3,25 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Publicaciones de Libros o Capítulos de libros</title>
 </head>
 <body>
-    <h1>Instructivo carga de datos acreditación</h1>
-    <h2>Menú Actividades > Publicaciones > Libros o capítulos de Libros</h2>
-    <ol>
-        <li>
-            <p>Visualizará las publicaciones en Libros o capítulos de Libros de las que tiene registro la Facultad.</p>
-            <img src="images/libros.png" alt="Menú para publicar un libro o capitulo de libro">
-        </li>
-        <li>
-            <p>Empleando el botón Nuevo podrá cargar un nuevo registro de su actividad.</p>
-            <img src="images/libros_nuevo.png" alt="nuevo libro">
-        </li>
-        <li>
-            <p>Una vez completado hacer clic en el botón Agregar, teniendo presente el llenado de los campos obligatorios.</p>
-            <img src="images/libro_nuevo_campos.png" alt="Campos para publicar nuevo libro">
-        </li>
-    </ol>
-    
+	<div class="container-fluid">
+
+        <div class="row my-4 mb-4">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9">
+                <h1>             
+                    Instructivo carga de datos acreditación
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-dark">
+                        <a href="ingreso.html" alt="Imagen de ingreso">Ingreso al sistema</a>
+                    </li>
+                    <li class="list-group-item list-group-item-light">
+                        <a href="datos_personales.html">Datos personales</a>
+                    </li>
+                    <li class="list-group-item list-group-item-dark">
+                        Formación
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-primary">
+                                <a href="formacion_titulaciones.html">Titulaciones</a>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">
+                                Capacitación, Perfeccionamiento
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <a href="formacion_capacitacion_financiado_por_la_facultad.html">Financiado por la facultad</a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <a href="formacion_capacitacion_no_financiado_por_la_facultad.html">No financiado por la facultad</a>
+                                    </li>
+                                </ul>
+                            </li>   
+                        </ul>
+                    </li>
+                    <li class="list-group-item list-group-item-light">
+                        <a href="designaciones.html">Designaciones</a>
+                    </li>
+                    <li class="list-group-item list-group-item-dark">Actividades
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-primary">
+                                Investicación I+D+I 
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-secondary"><a href="idi_categorizacion.html">Categorización</a></li>
+                                    <li class="list-group-item list-group-item-secondary"><a href="idi_proyectos.html">Proyectos I+D+I</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">
+                                <a href="vinculacion.html">Vinculación con el medio</a>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">Publicaciones
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <a href="publicaciones_revistas.html">En revistas</a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <a href="publicaciones_libros.html">Libros o Capitulos de libros</a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <a href="publicaciones_en_congreso.html">En Congresos y/o Seminarios</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">Capacitación
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-secondary">
+                                        <a href="capacitacion_autorizada_por_facultad.html">Autorizadas por la Facultad</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">
+                                <a href="gestion.html">Gestión</a>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">
+                                <a href="tesis.html">Tesis</a>
+                            </li>
+                            <li class="list-group-item list-group-item-primary">
+                                <a href="tutorias.html">Tutorias</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item list-group-item-light">Solicitudes
+                        <ul>
+                            <li class="list-group-item list-group-item-primary">
+                                <a href="tareas_asignadas.html">Tareas asignadas</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div id="content">
+                    <!-- Aquí se cargará el contenido de cada enlace -->
+                    <h3>Pasos para consultar o informar publicaciones en Libros</h3>
+                    <ol>
+                        <li>
+                            <p>En este menú Actividades > Publicaciones > Libros o capítulos de Libros, visualizará las publicaciones de las que tiene registro la Facultad.</p>
+                            <img src="images/libros.png" alt="Menú para publicar un libro o capitulo de libro">
+                        </li>
+                        <li>
+                            <p>Con el icono 
+                                <img src="images/btn_editar.png" alt="Botón editar"> 
+                                podrá modificar o eliminar el registro correspondiente. Si requiere agregar un nuevo registro haga clic en el botón <em>“+Nuevo”</em> y verá la siguiente interfaz</p>
+                            <img src="images/libros_nuevo.png" alt="nuevo libro">
+                        </li>
+                        <li>
+                            <p>Una vez completado todos los campos, hacer clic en el botón +Agregar.</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
