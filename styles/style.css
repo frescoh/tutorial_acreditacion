@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
 .titulo {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
