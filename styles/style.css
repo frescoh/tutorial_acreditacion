@@ -60,3 +60,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.portada {
+    display: grid;
+    place-items: center; /* Centra vertical y horizontalmente */
+    height: 75vh; 
+
+}
